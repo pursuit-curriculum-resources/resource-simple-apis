@@ -26,3 +26,10 @@ The following resources exist:
 1. Clone the repository.
 1. `npm install`
 1. `npm run dev`
+
+## Deployment with Heroku
+
+1. Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli).
+1. Login to your Heroku CLI with `heroku login`.
+1. `heroku create`
+1. `git push heroku main`
